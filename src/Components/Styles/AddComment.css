@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+.add-comment {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	width: 60%;
+	padding: 20px;
+	background: var(--white);
+	border-radius: 10px;
+	animation: come-in 1.5s ease-in-out;
+}
+
+.add-comment .profile-pic {
+	width: 30px;
+	height: 30px;
+	background: url(../../Assets/avatars/PngItem_786293.png);
+	background-size: cover;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+.add-comment .pic-comment {
+	display: flex;
+}
+
+.add-comment .comment-input {
+	position: relative;
+	height: 100px;
+	width: 100%;
+	border: 2px solid var(--light-gray);
+	color: var(--white);
+	border-radius: 10px;
+	padding: 15px 25px;
+	resize: none;
+	scrollbar-width: none;
+}
+
+.add-comment .comment-input::placeholder {
+	color: var(--white);
+}
+
+.add-comment .send-btn-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.add-comment .add-btn {
+	color: var(--grayish-blue);
+	font-weight: var(--fw-bold);
+	text-transform: uppercase;
+	padding: 15px 30px;
+	margin: 0 auto;
+	background: var(--moderate-blue);
+	border: 0;
+	border-radius: 10px;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+
+@media screen and (max-width: 735px) {
+	.content {
+		flex-direction: row;
+		padding: 25px;
+		gap: 25px;
+	}
+
+	.profile-pic {
+		width: 50px;
+		height: 36px;
+		display: block;
+		margin: 0;
+	}
+
+	.comment-input {
+		width: 100%;
+	}
+
+	.send-btn-container {
+		align-items: flex-start;
+	}
+	.send-btn-container .profile-pic {
+		display: none;
+	}
+}
+@media screen and (max-width: 1200px) {
+	.add-comment {
+		width: 70%;
+	}
+}
+@media screen and (max-width: 760px) {
+	.add-comment {
+		width: 90%;
+	}
+}
+@media screen and (max-width: 650px) {
+	.comment-container .comment .comment--body .comment--header {
+		flex-direction: inherit;
+	}
+}
+@keyframes come-in {
+	0% {
+		opacity: 0;
+		transform: translateY(-100%);
+	}
+
+	75% {
+		opacity: 0;
+		transform: translateY(-50%);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}

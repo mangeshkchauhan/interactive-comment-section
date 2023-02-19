@@ -1,0 +1,41 @@
+{
+	"currentUser": {
+		"username": "akshat"
+	},
+	"comments": [
+		{
+			"id": 1,
+			"content": "I absolutely didn't know that Maggi was actually directly targeting working women and mothers. Although, I remember their ads were focused on that messaging. But, still, never thought that they were so laser-focused on that demographic. Thanks for shareing! Looking forward to Part 2 :)",
+			"score": 1,
+			"username": "saral",
+			"currentUser": false,
+			"replies": [
+				{
+					"id": 3,
+					"content": "@saral, Glad you liked it Saral! ",
+					"score": 0,
+					"username": "kartik",
+					"currentUser": false,
+					"replies": []
+				}
+			]
+		},
+		{
+			"id": 2,
+			"content": "The 'catch them young!' point is so correct. People who grew up with Maggi, can't switch to diffenet brand. But, I wonder if the kids today have same obsession with Maggi as some of the GenZs and Millenials do. Probably explain their failing market share.",
+			"score": 1,
+			"username": "akshat",
+			"currentUser": false,
+			"replies": [
+				{
+					"id": 4,
+					"content": "@akshat, Absolutely Akshat, But we don't have any empricial evidence stating if Maggi's popularity has increased or decreased among the current school-going kids. Nestle and Maggi's numbers look strong and they are growing every year. But, you are correct, their market share has come down. That could partly be the result of the 2015 ban.",
+					"score": 4,
+					"username": "hrishikesh",
+					"currentUser": false,
+					"replies": []
+				}
+			]
+		}
+	]
+}
